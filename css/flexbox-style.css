@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 50px;
+    margin-left: 80px;
+    border: 2px solid black;
+    outline: 1px solid rgb(214, 213, 213);
+    outline-offset: 1px;
+    width: 500px;
+    height: 400px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.items{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+.item1{
+    background-color: yellow;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 2px;
+    
+}
+.item2{
+    background-color: red;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 2px;
+}
+.item3{
+    background-color: aqua;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 2px;
+}
+.item4{
+    background-color: rgb(156, 156, 250);
+    padding: 10px;
+    border: 2px solid black;
+    margin: 2px;
+}

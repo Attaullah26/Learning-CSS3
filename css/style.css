@@ -1,0 +1,81 @@
+body{
+    padding: 0px;
+    margin: 5px;
+    background-image: url(images/flower.jpg);
+}
+form {
+    padding: 15px;
+    margin: auto;
+    border: 2px solid rgb(7, 1, 15);
+    outline: 3px solid green;
+    outline-offset: 3px;
+    width: 400PX;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+h2 {
+    padding: 0px 0px 15px 0px;
+    margin: 0px;
+    text-align: center;
+    text-shadow: 1px 1px 2px green;
+}
+input {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+    border-bottom: 2px sollid white;
+    height: 16px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.text {
+    width: 50%;
+    padding: auto;
+    height: 13px;
+    border-radius: 5px;
+}
+label{
+    font-size: 18px;
+    
+}
+select{
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+    border-bottom: 2px sollid white;
+    height: 16px;
+    border-radius: 5px;
+}
+.submit{
+    padding: 5px;
+    outline: 0px;
+    background-color: black;
+    height: 30px;
+    margin-right: 20px;
+    font-size: 15px;
+    width: 100px;
+    margin-left: 65px;
+    text-align: center;
+    border-radius: 8px;
+}
+.reset{
+    padding: 5px;
+    outline: 0px;
+    background-color: black;
+    height: 30px;
+    margin-right: 60px;
+    margin-left: 20px;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+}
+.reset:hover{
+    background-color: red ;
+}
+.submit:hover{
+    background-color: red ;
+}

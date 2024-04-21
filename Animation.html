@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animation</title>
+    <style>
+        .animation {
+            width: 250px;
+            height: 250px;
+            margin: 50px auto;
+            background-color: rgb(243, 243, 243);
+            border: 2px solid black;
+            text-align: center;
+            padding-top: 115px;
+            box-sizing: border-box;
+            animation: sample;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes sample {
+            from {border-radius: 0%;
+            background-color: aliceblue;
+            }
+            to {border-radius: 50%;
+            background-color: rgb(29, 9, 185);
+            color: white;
+            box-shadow: 12px 12px 15px rgb(87, 236, 33);
+            font-size: 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="animation">
+        Babar Writes
+    </div>
+</body>
+</html>

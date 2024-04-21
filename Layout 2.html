@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <style>
+        *{
+            padding: 0 ; margin: 0;
+            font-family: sans-serif;
+        }
+        body{
+            background: url(images/nature3.jpg);
+            color: white;
+        }
+
+        .navbar{
+
+        }
+
+        .left{
+            /* border: 2px solid red; */
+            position: absolute;
+            margin: 5px 12px;
+        }
+        .left img{
+            width: 40px;
+            height: 40px;
+            display: block;
+            border-radius: 48%;
+            margin: 3px auto;
+        }
+        .left span{
+            font-size: 11px;
+            font-family: sans-serif;
+        }
+
+        .mid{
+            /* border: 3px solid blue; */
+            display: block;
+            width: 410px;
+            margin: 3px auto;
+        }
+        .mid ul{
+            list-style: none;
+        }
+        .mid ul li{
+            display: inline;
+            
+        }
+        .mid ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+            font-family: sans-serif;
+            font-weight: 700;
+            padding: 0 5px;
+        }
+        .mid ul li a:hover{
+            color: rgb(253, 253, 27);
+            font-weight: 700;
+        }
+
+        .right{
+            /* border: 2px solid green; */
+            position: absolute;
+            right: 20px;
+            top: 0px;
+            margin: 5px 12px;
+        }
+        .right .btn{
+            padding: 5px 20px;
+            border-radius: 12px;
+            background: transparent;
+            color: white;
+            border: 1px solid white;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        .right .btn:hover{
+            color: black;
+            background-color: white;
+        }
+       
+        .container{
+            border: 1px solid white;
+            border-radius: 12px;
+            margin: 130px 60px;
+            width: 500px;
+            padding: 60px;
+        }
+        .container div input{
+            width: 300px;
+            display: block;
+            margin: 3px auto;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: rgb(216, 211, 211);
+        }
+        .container .btn{
+            display: block;
+            width: 310px;
+            padding: 6px;
+            margin: 8px auto;
+            border-radius: 7px;
+            background-color: blue;
+            border-color: black;
+            color: white;
+        }
+        .container h1{
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="left">
+                <img src="images/logo.jpg" alt="logo">
+                <span>Babar Writes</span>
+            </div>
+            <div class="mid">
+                <ul>
+                    <li><a href="#" class="">HOME</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="btn">Call Us</button>
+                <button class="btn">Email</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">    <div class="form">
+        <h1>Personal Information</h1>
+        <div><input type="text" placeholder="Enter your name"></div>
+        <div><input type="text" placeholder="Enter your name"></div>
+        <div><input type="text" placeholder="Enter your name"></div>
+        <div><input type="text" placeholder="Enter your name"></div>
+    </div>
+    <button type="submit" class="btn">Submit</button>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <title>Login Form</title>
+        <link rel="stylesheet" href="css/login-form.css">
+    </head>
+    <body>
+        <div id="form" class="box">
+            <h2>Login Here</h2>
+            <label for="">User Name</label><br><input type="text" name="name" id="name"/>
+            <label for="" id="pass">Password</label><br><input type="password" name="pass"/>
+            <input type="submit" class="button" id="submit"><br>
+            <a href="#" id="forgetPass">Forget Password?</a>
+        </div>
+
+
+
+        <script src="js/jquery-3.7.0.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#submit').click(function(){
+                    var name =$('#name, #pass').val();
+                    alert('Login Successfully');
+                });
+
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/cal-style.css">
+</head>
+<body>
+    <div class="calculator">
+        <form action="" id="head">
+            
+            <input class="display" placeholder="0" style="font-size: 26px;">
+        </form>
+        <table class="buttons">
+            <tr class="first-row">
+                <td><input type="button" class="button delete" value="C" onclick="c()"></td>
+                <td><input type="button" class="button functions" value="/" onclick="insrt('/')"></td>
+                <td><input type="button" class="button delete" value=">" onclick="del()"></td>
+                <td><input type="button" class="button functions" value="*" onclick="insrt('*')"></td>
+            </tr>
+            <tr class="second-row">
+                <td><input type="button" class="button" value="7" onclick="insrt(7)"></td>
+                <td><input type="button" class="button" value="8" onclick="insrt(8)"></td>
+                <td><input type="button" class="button" value="9" onclick="insrt(9)"></td>
+                <td><input type="button" class="button functions" value="-" onclick="insrt('-')"></td>
+            </tr>
+            <tr class="third-row">
+                <td><input type="button" class="button" value="4" onclick="insrt(4)"></td>
+                <td><input type="button" class="button" value="5" onclick="insrt(5)"></td>
+                <td><input type="button" class="button" value="6" onclick="insrt(6)"></td>
+                <td><input type="button" class="button functions" value="+" onclick="insrt('+')"></td>
+            </tr>
+            <tr class="fourth-row">
+                <td><input type="button" class="button" value="1" onclick="insrt(1)"></td>
+                <td><input type="button" class="button" value="2" onclick="insrt(2)"></td>
+                <td><input type="button" class="button" value="3" onclick="insrt(3)"></td>
+                <td rowspan="2"><input type="button" class="button equal" value="=" onclick="eql()" ></td>
+            </tr>
+            <tr class="fifth-row">
+                <td colspan="2"><input type="button" class="button" value="0" style="width: 110px;" onclick="insrt(0)"></td>
+                <td><input type="button" class="button functions" value="." onclick="insrt('.')"></td>
+                
+            </tr>
+        </table>
+    </div>
+
+
+
+    <!-------------JavaScript------------------>
+
+  
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script>
+        function insrt(num){
+            $('.display').val($('.display').val() + num);
+        };
+        function eql(){
+            $('.display').val(eval($('.display').val()))
+        }
+        function c(){
+            $('.display').val(''); 
+        }
+        function del(){
+            value = $('.display').val();
+            $('.display').val(value.substring(0, value.length -1));
+        };
+       
+     
+
+        
+    </script>
+</body>
+</html>

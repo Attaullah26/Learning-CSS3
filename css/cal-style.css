@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452)
+    
+}
+.calculator {
+    width: 280px;
+    height: 370px;
+    margin: 26px auto;
+    border: 2px solid black;
+    border-radius: 18px;
+    background-color: rgb(115, 116, 116);  
+    box-shadow: 2px 2px 12px black;
+    
+}
+.button {
+    width: 50px;
+    height: 35px; 
+    border-radius: 12px;
+    margin: 3px;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: none;
+    box-shadow: -1px -1px -2px black;
+    color: white;
+    font-size: 22px;
+}
+.button:hover {
+    width: 50px;
+    height: 35px; 
+    border-radius: 12px;
+    margin: 3px;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: none;
+    box-shadow: 5px 5px 6px black;
+    cursor: pointer;
+}
+.buttons {
+    margin-bottom: 12px;
+    margin-left: 21px;
+}
+.display {
+    width: 240px;
+    height: 40px;
+    margin: 0 auto;
+    padding-left: 12px;
+    margin-left: 20px;
+    margin-bottom: 28px;
+    margin-top: 40px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    text-align: right;
+    
+}
+.display:focus {
+    border: none;
+}
+
+.equal {
+    height: 83.5px;
+    color: orangered
+}
+.equal:hover {
+    height: 83.5px;
+}
+.functions {
+    color: rgb(0, 178, 27)
+}
+.delete {
+    color: red;
+}

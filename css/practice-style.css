@@ -1,0 +1,13 @@
+body{
+    background-image: url(images/nature1.jpg);
+}
+#box{
+   column-count: 4;
+   column-gap: 40px;
+   text-align: justify;
+   padding: 20px;
+   column-rule-width: 5px;
+   column-rule-style: dotted;
+   column-rule-color: black;
+   background-image: url(nature1.jpg);
+}
